@@ -32,7 +32,6 @@ Enter a word in the input box and click the "Add" button to add it to the word c
 
 ## Project Structure
 
-project-folder/
 │── index.html
 │── script.js
 │── README.md
