@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="h-screen pl-5 pr-5 flex flex-col justify-between">
+        <div id="wordsContainer" class="word-cloud-container flex flex-wrap"></div>
+        <div class="flex justify-center">
+            <div class="text-center w-full m-4">
+                <p id="errorMsg" class="text-[#f62c3b] text-sm"></p>
+                <input id="userInput" type="text" class="border rounded pl-3 pr-3 pt-2 pb-2" />
+                <button id="addBtn" class="text-white bg-[#565b6e] rounded pl-2 pr-2 pt-1 pb-1 ml-2" onclick="onAddWordToWordCloud()">
+                    Add
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
